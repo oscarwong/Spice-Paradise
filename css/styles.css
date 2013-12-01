@@ -85,8 +85,9 @@ p {
 
 .hipsterpizza {
 	position: absolute;
-	width: 700px;
+	width: 400px;
 	opacity: 1;
+	padding-left: 50px;
 	transition: .25s ease;
 	-webkit-transition: .25s ease;
 	-moz-transition: .25s ease;
@@ -256,3 +257,9 @@ h2 {
 	padding: 10px;
 	width: 350px;
 }
+
+.spice {
+	margin-bottom: 25px;
+}
+
+
