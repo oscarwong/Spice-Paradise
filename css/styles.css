@@ -59,6 +59,7 @@ p {
 
 .mainbar {
 	padding-top: 250px;
+	float: left;
 }
 
 .title {
@@ -258,8 +259,10 @@ h2 {
 	width: 350px;
 }
 
-.spice {
-	margin-bottom: 25px;
+.carousel {
+	float: right;
+	margin-top: 190px;
+	margin-left: 20px;
 }
 
 

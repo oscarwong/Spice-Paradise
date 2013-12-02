@@ -7,12 +7,17 @@
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="css/styles.css">
 		<meta name="author" content="oscarw94">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/coin-slider.js"></script>
+
+		<link rel="stylesheet" href="css/coin-slider-styles.css" type="text/css" />        
+        
 	</head>
 
 	<body>
 		<div class="container">
-			<div class="row">
-				<div class="col-md-3 mainbar">
+				<div class="mainbar">
 					<a href="index.html"><img class="logo" src="img/newlogo.png" alt="Logo"></a>
 					<nav>
 						<ul>
@@ -24,45 +29,75 @@
 						</ul>
 					</nav>
 				</div>
+					<div class=" col-md-9 carousel">
+						<div id="spice-gallery">
+					
+								<img src="img/black-salt.jpg" alt="black salt" />
+								<span>
+									<b>Black Salt</b><br />
+									Description
+								</span>
+	
 
-				<div class="spice-gallery">
+								<img src="img/garlic-powder.jpg" alt="garlic powder" />
+								<span>
+									<b>Garlic Powder</b><br />
+									Description
+								</span>
+							
+							<img src="img/caraway-seeds.jpg" alt="caraway seeds" />
+								<span>
+									<b>Caraway Seeds</b><br />
+									Description
+								</span>
+							
+							<img src="img/coriander.jpg" alt="coriander" />
+								<span>
+									<b>Coriander</b><br />
+									Description
+								</span>
+							
+							<img src="img/cumin-seeds.jpg" alt="cumin seeds" />
+								<span>
+									<b>Cumin Seeds</b><br />
+									Description
+								</span>
 
-					<div class="col-lg-3 col-md-4 col-xs-6 spice">
-				      <img class="img-responsive" src="img/cumin-seeds.jpg" alt="cumin seeds">
-				    </div>
+							<img src="img/curry-leaves.jpg" alt="curry leaves" />
+								<span>
+									<b>Curry Leaves</b><br />
+									Description
+								</span>
+							
+							<img src="img/dry-ginger.jpg" alt="dry ginger" />
+								<span>
+									<b>Dry Ginger</b><br />
+									Description
+								</span>
+							
+							<img src="img/mint-leaves.jpg" alt="mint leaves" />
+								<span>
+									<b>Mint Leaves</b><br />
+									Description
+								</span>
+								
+							<img src="img/pap.jpg" alt="paprika" />
+								<span>
+									<b>Paprika</b><br />
+									Description
+								</span>
 
-				    <div class="col-lg-3 col-md-4 col-xs-6 spice">
-				      <img class="img-responsive" src="img/black-salt.jpg" alt="black salt">
-				    </div>
+							<img src="img/star-anise.jpg" alt="star anise" />
+								<span>
+									<b>Star Anise</b><br />
+									Description
+								</span>				
+						</div>
+					<script>
+						$('#spice-gallery').coinslider({width: 600, height: 400, effect: 'random', opacity: 0.4, delay: 4000, links: false});
+					</script>
+				</div>	
 
-				    <div class="col-lg-3 col-md-4 col-xs-6 spice">
-				      <img class="img-responsive" src="img/mint-leaves.jpg" alt="mint leaves">
-				    </div>
-
-				    <div class="col-lg-3 col-md-4 col-xs-6 spice">
-				      <img class="img-responsive" src="img/caraway-seeds.jpg" alt="caraway seeds">
-				    </div>
-
-				    <div class="col-lg-3 col-md-4 col-xs-6 spice">
-				      <img class="img-responsive" src="img/dry-ginger.jpg" alt="dry ginger">
-				    </div>
-
-				    <div class="col-lg-3 col-md-4 col-xs-6 spice">
-				      <img class="img-responsive" src="img/garlic-powder.jpg" alt="garlic powder">
-				    </div>
-
-				    <div class="col-lg-3 col-md-4 col-xs-6 spice">
-				      <img class="img-responsive" src="img/curry-leaves.jpeg" alt="curry leaves">
-				    </div>
-
-				    <div class="col-lg-3 col-md-4 col-xs-6 spice">
-				      <img class="img-responsive" src="img/star-anise.jpg" alt="star anise">
-				    </div>
-
-				    <div class="col-lg-3 col-md-4 col-xs-6 spice">
-				      <img class="img-responsive" src="img/coriander.jpg" alt="coriander powder">
-				    </div>	
-				</div>    
 
 					<!-- <div class="row maincontent">
 						<img class="hipsterpizza" src="img/hipsterpizza.png" alt="pizza">
@@ -94,10 +129,10 @@
 						</div>
 					</div>	
 				</div> -->
-			</div>
 		</div>
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script src="lib/bootstrap-3.0.0/js/bootstrap.min.js"></script>
+
 	</body>
 </html>
