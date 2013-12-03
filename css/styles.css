@@ -1,4 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
+@import url(http://fonts.googleapis.com/css?family=Montaga);
+
 
 @import url(reset.css);
 
@@ -10,9 +12,6 @@ body {
 	color: #fff;
 }
 
-p {
-	padding: 10px;
-}
 
 .logo {
 	display: block;
@@ -265,4 +264,15 @@ h2 {
 	margin-left: 20px;
 }
 
+.spice-name {
+	display: inline;
+	font-family: 'Montaga', serif;
+	font-size: 95%;
+}
+
+.spice-description {
+	font-family: 'Montaga', serif;
+	font-size: 85%;
+	padding-top: 3px;
+}
 
