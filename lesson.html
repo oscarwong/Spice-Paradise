@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="lib/bootstrap-3.0.0/css/bootstrap.min.css">
+		<title>Spice Paradise</title>
+		<meta name="description" content="Indian Cooking Lessons And Spices In Jodhpur, India">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/reservation.css">
+		<meta name="author" content="oscarw94">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/coin-slider.js"></script>
+
+		<link rel="stylesheet" href="css/coin-slider-styles.css" type="text/css" /> 
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="mainbar">
+					<a href="index.html"><img class="logo" src="img/newlogo.png" alt="Logo"></a>
+					<nav>
+						<ul>
+							<li><a href="index.html">HOME</a></li>
+							<li><a href="menu.html">MENU</a></li>
+							<li><a href="order.html">ORDER</a></li>
+							<li><a href="about.html">ABOUT US</a></li>
+							<li><a href="jobs.html">JOBS</a></li>
+						</ul>
+					</nav>
+			</div>
+
+			<div class="row">
+
+				<div class="col-lg-8 content">
+					<p class="info top">Rekha teaches the cooking classes for tourists covering some of the basics of Indian cooking like how to make chai, lassis, chutneys, dal, chapatis, naan, raita, biryani rice and a paneer curry.</p>
+
+					<p class="info">The cooking lesson is a hands on experience so you’ll be chopping, stirring, kneading and tasting. Best of all you eat what you’ve cooked during the class. Everyone receives a cookbook of all the recipes they have learnt.</p>
+
+					<div class="carousel">
+						<div id="spice-gallery">
+					
+							<img src="img/lessons/1.jpg" alt="black salt" />
+						
+
+							<img src="img/lessons/2.jpg" alt="garlic powder" />
+							
+							<img src="img/lessons/3.jpg" alt="caraway seeds" />
+							
+							<img src="img/lessons/4.jpg" alt="coriander" />
+						
+							<img src="img/lessons/5.jpg" alt="cumin seeds" />
+
+							<img src="img/lessons/6.jpg" alt="curry leaves" />
+							
+							<img src="img/lessons/7.jpg" alt="dry ginger" />
+							
+							<img src="img/lessons/8.jpg" alt="mint leaves" />
+								
+							<img src="img/lessons/9.jpg" alt="paprika" />
+
+							<img src="img/lessons/10.jpg" alt="star anise" />
+								
+							<img src="img/lessons/11.jpg" alt="star anise" />				
+						</div>
+					<script>
+						$('#spice-gallery').coinslider({width: 550, height: 309, effect: 'random', opacity: 0.4, delay: 3000, links: false});
+					</script>
+				</div>	
+
+					<p class="info">Anil teaches classes in Rajasthani cooking for Indian people. The popular namkeen dishes he teaches include: malai kofta, gulab jamun curry, navratan korma (9 gems curry), haldi ki sabji, paneer specials, gutta curry, govind gutta, Rajasthan kadi sogra, dal baati churma, ker sangria, mirchi wada kachori samosa, khammam dokhla, pani puri, kabuli and fruit cream.</p>
+					<button type="button" class="btn btn-primary reservation">
+                        Set Up A Cooking Lesson With Us!
+                    </button>
+				</div>
+
+				<div class="modal fade info-modal">
+		            <div class="modal-dialog">
+		                <div class="modal-content">
+		                    <div class="modal-header">
+		                        <h4 class="modal-title"><span class="glyphicon glyphicon-user"></span> Contact Information for Cooking Lessons </h4>
+
+		                    </div>
+		                    <div class="modal-body">
+		                    	<form method="POST" action="" class="booking-form" role="form">
+                                    <div>
+                                        Full Name: <input type="text" class="form-control" name="fullName" placeholder=" Please Enter Full Name" required>
+                                    </div>
+                                    <div>
+                                        E-Mail: <input type="email" class="form-control" name="email" placeholder="Please Enter Email" required>
+                                    </div>
+                                     <div>
+                                        Cell Phone Number: <input type="tel" class="form-control" name="phoneNumber" placeholder="Please Enter Phone Number">
+                                    </div>
+                                    <div>
+                                        Arrival Date: <input type="date" class="form-control" name="date" placeholder="Please Enter Arrival Date" required>
+                                    </div>
+                                     <div>
+                                        Estimated Arrival Time: <input type="time" class="form-control" name="time" placeholder="Please Enter Arrival Time" required>
+                                    </div>
+                                    <div>
+                                        Number of Adults: <input type="number" min="1" class="form-control" name="adults" placeholder="Please Enter Number of Adults" required>
+                                    </div>
+                                    <div>
+                                        Number of Children: <input type="number" min="0" class="form-control" name="children" placeholder="Please Enter Number of Children" required>
+                                    </div>
+                                    <div class="alert alert-danger">All Fields Are Required</div>
+	                                <button type="dismiss" class="btn btn-danger cancel" data-dismiss="modal">Cancel</button>
+	                            	<button type="submit" class="btn btn-success confirm">Confirm</button>
+	                            	<p class="testing">If you have any questions please e-mail: 
+										<a href="mailto:anilkumar20042003@gmail.com">anilkumar20042003@gmail.com</a>
+									</p>
+                                </form>
+		                    </div>
+		                </div><!-- /.modal-content -->
+		            </div><!-- /.modal-dialog -->
+		        </div><!-- /.modal -->
+			</div>
+		</div>	
+
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="lib/bootstrap-3.0.0/js/bootstrap.min.js"></script>	
+		<script src="js/modal.js"></script>
+
+	</body>
+</html>	
