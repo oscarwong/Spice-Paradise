@@ -137,6 +137,14 @@ body {
 	-o-transition: .25s ease;
 }
 
+.sidebar-nav-fixed {
+	padding: 9px 0;
+	position: fixed;
+	left: 20px;
+	top: 150px;
+	width: 250px;
+}
+
 .menu-box {
 	width: 20%;
 }
@@ -170,6 +178,12 @@ body {
 
 .aboutus {
 	text-align: center;
+	padding-bottom: 30px;
+}
+
+.aboutusp {
+	padding-bottom: 20px;
+	font-weight: 300;
 }
 
 .last {
@@ -216,7 +230,7 @@ h2 {
 	padding: 10px;
 	padding-bottom: 10px;
 	font-size: 25px;
-	font-weight: bold;
+	letter-spacing: 3px;
 }
 
 .categories {
@@ -276,3 +290,30 @@ h2 {
 	padding-top: 3px;
 }
 
+.fbicon {
+	width: 30px;
+	opacity: .25;
+	transition: .1s ease;
+	-webkit-transition: .1s ease;
+	-moz-transition: .1s ease;
+	-ms-transition: .1s ease;
+	-o-transition: .1s ease;
+}
+
+.fbicon:hover {
+	opacity: 1;
+}
+
+.tripadvisor {
+	width: 50px;
+	opacity: .25;
+	transition: .1s ease;
+	-webkit-transition: .1s ease;
+	-moz-transition: .1s ease;
+	-ms-transition: .1s ease;
+	-o-transition: .1s ease;
+}
+
+.tripadvisor:hover {
+	opacity: 1;
+}
