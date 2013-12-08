@@ -5,9 +5,13 @@
 @import url(reset.css);
 
 body {
-	background-color: #433f3f;
+	background: url('../img/bg.jpeg') no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
+	padding: 10px;
 	color: #fff;
 }
 
@@ -136,6 +140,14 @@ body {
 	-o-transition: .25s ease;
 }
 
+.sidebar-nav-fixed {
+	padding: 9px 0;
+	position: fixed;
+	left: 20px;
+	top: 150px;
+	width: 250px;
+}
+
 .menu-box {
 	width: 20%;
 }
@@ -169,6 +181,12 @@ body {
 
 .aboutus {
 	text-align: center;
+	padding-bottom: 30px;
+}
+
+.aboutusp {
+	padding-bottom: 20px;
+	font-weight: 300;
 }
 
 .last {
@@ -215,7 +233,7 @@ h2 {
 	padding: 10px;
 	padding-bottom: 10px;
 	font-size: 25px;
-	font-weight: bold;
+	letter-spacing: 3px;
 }
 
 .categories {
@@ -257,6 +275,12 @@ h2 {
 	width: 350px;
 }
 
+.carousel {
+	float: right;
+	margin-top: 190px;
+	margin-left: 20px;
+}
+
 .spice-name {
 	display: inline;
 	font-family: 'Montaga', serif;
@@ -268,6 +292,54 @@ h2 {
 	font-size: 85%;
 	padding-top: 3px;
 }
+
+.fbicon {
+	width: 30px;
+	opacity: .25;
+	transition: .1s ease;
+	-webkit-transition: .1s ease;
+	-moz-transition: .1s ease;
+	-ms-transition: .1s ease;
+	-o-transition: .1s ease;
+}
+
+.fbicon:hover {
+	opacity: 1;
+}
+
+.tripadvisor {
+	width: 50px;
+	opacity: .25;
+	transition: .1s ease;
+	-webkit-transition: .1s ease;
+	-moz-transition: .1s ease;
+	-ms-transition: .1s ease;
+	-o-transition: .1s ease;
+}
+
+.tripadvisor:hover {
+	opacity: 1;
+}
+
+.header {
+	background-color: rgba(255,255,255, 0.3);
+	margin-bottom: 15px;
+}
+
+.welcome {
+	font-size: 190%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             	0px 8px 13px rgba(0,0,0,0.1),
+             	0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.home {
+	font-size: 1em;
+	line-height: 1.25em;
+	margin: 1.25em 0;
+	text-align: justify;
+}
+
 
 .modal .modal-body {
     padding: 10px;
