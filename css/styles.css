@@ -277,8 +277,6 @@ h2 {
 
 .carousel {
 	float: right;
-	margin-top: 190px;
-	margin-left: 20px;
 }
 
 .spice-name {
@@ -355,4 +353,16 @@ h2 {
 
 .tel {
 	float: right;
+}
+
+.spice-list{
+	padding-left: 20px;
+}
+
+.spice-list li{
+	padding: 2px;
+}
+
+.spice-type{
+	text-decoration: underline;
 }
