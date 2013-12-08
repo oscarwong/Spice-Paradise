@@ -22,7 +22,7 @@ body {
 	margin-right: auto;
 	width: 200px;
 	padding-left: 30px;
-	opacity: .25;
+	opacity: .8;
 	transition: .1s ease;
 	-webkit-transition: .1s ease;
 	-moz-transition: .1s ease;
@@ -204,7 +204,7 @@ nav {
 nav a {
 	padding: 10px;
 	font-size: 120%;
-	color: #8b8b8b;
+	color: #D3D3D3;
 	-webkit-transition: color .1s ease-in-out;
 	-moz-transition: color .1s ease-in-ou;
 	-ms-transition: color .1s ease-in-ou;
@@ -295,7 +295,7 @@ h2 {
 
 .fbicon {
 	width: 30px;
-	opacity: .25;
+	opacity: .5;
 	transition: .1s ease;
 	-webkit-transition: .1s ease;
 	-moz-transition: .1s ease;
@@ -309,7 +309,7 @@ h2 {
 
 .tripadvisor {
 	width: 50px;
-	opacity: .25;
+	opacity: .5;
 	transition: .1s ease;
 	-webkit-transition: .1s ease;
 	-moz-transition: .1s ease;
@@ -327,15 +327,32 @@ h2 {
 }
 
 .welcome {
+	clear: both;
 	font-size: 190%;
 	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
              	0px 8px 13px rgba(0,0,0,0.1),
              	0px 18px 23px rgba(0,0,0,0.1);
 }
 
-.home {
+.home,
+.about {
 	font-size: 1em;
 	line-height: 1.25em;
 	margin: 1.25em 0;
 	text-align: justify;
+}
+
+.location {
+	font-size: 90%;
+	line-height: 1.25em;
+	margin: 1.25em 0;
+	text-align: justify;
+}
+
+.address {
+	float: left;
+}
+
+.tel {
+	float: right;
 }
