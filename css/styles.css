@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
 @import url(http://fonts.googleapis.com/css?family=Varela+Round);
 @import url(http://fonts.googleapis.com/css?family=Oswald);
 
@@ -10,7 +10,7 @@ body {
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 	padding: 10px;
 	color: #fff;
@@ -358,6 +358,7 @@ h2 {
 .tel {
 	float: right;
 	margin-top: 5px;
+	margin-bottom: 10px;
 	font-size: 90%;
 }
 
@@ -453,4 +454,8 @@ h2 {
 .article {
 	margin-top: 10px;
 	text-align: center;
+}
+
+.panel-body {
+	background-color: 778899;	
 }
