@@ -1,6 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
-@import url(http://fonts.googleapis.com/css?family=Montaga);
-
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
 
 @import url(reset.css);
 
@@ -281,12 +280,12 @@ h2 {
 
 .spice-name {
 	display: inline;
-	font-family: 'Montaga', serif;
+	font-family: 'Varela Round', sans-serif;
 	font-size: 95%;
 }
 
 .spice-description {
-	font-family: 'Montaga', serif;
+	font-family: 'Varela Round', sans-serif;
 	font-size: 85%;
 	padding-top: 3px;
 }
@@ -322,7 +321,7 @@ h2 {
 .header {
 	background-color: rgba(255,255,255, 0.3);
 	margin-bottom: 15px;
-	font-family: 'Montaga', serif;
+	font-family: 'Varela Round', sans-serif;
 }
 
 .welcome {
@@ -335,7 +334,7 @@ h2 {
 
 .home,
 .about {
-	font-size: 1em;
+	font-size: 90%;
 	line-height: 1.25em;
 	margin: 1.25em 0;
 	text-align: justify;
@@ -385,6 +384,7 @@ h2 {
 	font-size: 100%;
 	padding-top: 25px;
 	margin-bottom: 5px;
+	font-family: 'Varela Round', sans-serif;
 }
 
 .top {
@@ -393,4 +393,45 @@ h2 {
 
 .info-body {
 	background-color: rgba(255,255,255, 0.3);
+}
+
+.modal .modal-body {
+    padding: 10px;
+    padding-top: 20px;
+    color: #000;
+    font-size: 80%;
+}
+
+.modal .modal-body label {
+    text-align: right;
+    padding-bottom: 7px;
+    position: relative;
+    top: 6px;
+    left: 10px;
+}
+
+.modal .modal-body button {
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 300px;
+}
+
+.modal .modal-body .cancel {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.modal-header {
+	background-color: #d3d3d3;
+}
+
+.modal-title {
+	color: #000;
+}
+
+.form-control {
+	margin-bottom: 10px;
+	margin-top: 2px;
 }
