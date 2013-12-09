@@ -1,7 +1,14 @@
+// modal.js shows a modal when a user clicks the "reservation" button and takes
+// user input to create a confimation alert. May be used for back end work. 
+
 $('.reservation').click(function(){
 	$('.info-modal').modal(); 
 });
 
+
+// User must enter all fields to get confirmation message. Takes 
+// user input to produce confirmation message. The variables may be
+// taken to be used in back-end work.
 $('.booking-form').submit(function(){
 	var bookingForm = $(this);
 	var name = bookingForm.find('input[name="fullName"]').val();
@@ -21,35 +28,4 @@ $('.booking-form').submit(function(){
 		alert("One of the required fields is missing!");
 		return false;
 	}	
-});
-
-$('.video').magnificPopup({
-  type: 'iframe',
-  
-  
-  iframe: {
-    patterns: {
-      dailymotion: {
-       
-        index: 'youtube.com',
-        
-        id: function(url) {        
-            var m = url.match(/^.+dailymotion.com\/(video|hub)\/([^_]+)[^#]*(#video=([^_&]+))?/);
-            if (m !== null) {
-                if(m[4] !== undefined) {
-                  
-                    return m[4];
-                }
-                return m[2];
-            }
-            return null;
-        },
-        
-        src: 'http://www.youtube.com/watch?v=cVnBiuG4Tvw'
-        
-      }
-    }
-  }
-  
-  
 });
