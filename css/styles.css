@@ -31,114 +31,13 @@ body {
 	-o-transition: .1s ease;
 }
 
-.orderit {
-	width: 300px;
-	padding-right: 70px;
-	padding-top: 230px;
-	opacity: 1;
-	transition: .25s ease;
-	-webkit-transition: .25s ease;
-	-moz-transition: .25s ease;
-	-ms-transition: .25s ease;
-	-o-transition: .25s ease;
-}
-
-.orderit:hover {
-	opacity: .6;
-}
-
-.orderlink {
-	opacity: 0;
-	transition: .25s ease;
-	-webkit-transition: .25s ease;
-	-moz-transition: .25s ease;
-	-ms-transition: .25s ease;
-	-o-transition: .25s ease;
-}
-
 .logo:hover {
 	opacity: 1;
-}
-
-.mainbar {
-	padding-top: 250px;
-	float: left;
-}
-
-.title {
-	width: 200px;
-}
-
-.dawgpizza {
-	width: 200px;
-	right: 9px;
-	top: 170px;
-}
-
-.imgtext {
-	position: relative;
-	opacity: 0;
-	font-size: 50px;
-	font-weight: bold;
-	transition: .25s ease;
-	-webkit-transition: .25s ease;
-	-moz-transition: .25s ease;
-	-ms-transition: .25s ease;
-	-o-transition: .25s ease;
-}
-
-.hipsterpizza {
-	position: absolute;
-	width: 400px;
-	opacity: 1;
-	padding-left: 50px;
-	transition: .25s ease;
-	-webkit-transition: .25s ease;
-	-moz-transition: .25s ease;
-	-ms-transition: .25s ease;
-	-o-transition: .25s ease;
-}
-
-.maincontent:hover .hipsterpizza {
-	opacity: .25;
 }
 
 .maincontent {
 	margin-left: auto;
 	margin-right: auto;
-}
-
-.maincontent:hover .imgtext {
-	opacity: 1;
-}
-
-.maincontent:hover .homeinfo {
-	opacity: 1;
-}
-
-.maincontent:hover .orderlink {
-	opacity: 1;
-}
-
-.homeinfo {
-	opacity: 0;
-	transition: .25s ease;
-	-webkit-transition: .25s ease;
-	-moz-transition: .25s ease;
-	-ms-transition: .25s ease;
-	-o-transition: .25s ease;
-	padding-top: 80px;
-	font-size: 30px;
-}
-
-.homeinfo a {
-	text-decoration: none;
-	opacity: 1;
-	transition: .25s ease;
-	-webkit-transition: .25s ease;
-	-moz-transition: .25s ease;
-	-ms-transition: .25s ease;
-	-o-transition: .25s ease;
 }
 
 .sidebar-nav-fixed {
@@ -147,51 +46,6 @@ body {
 	left: 20px;
 	top: 150px;
 	width: 250px;
-}
-
-.menu-box {
-	width: 20%;
-}
-
-.content-box {
-	width: 80%;
-}
-
-.pizzapicture {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-}
-
-.content-box {
-	width: 80%;
-}
-
-.pizzapicture1 {
-	width: 200px;
-}
-
-.pizzapicture2 {
-	width: 200px;
-}
-
-.pizzapicture3 {
-	width: 208px;
-}
-
-.aboutus {
-	text-align: center;
-	padding-bottom: 30px;
-}
-
-.aboutusp {
-	padding-bottom: 20px;
-	font-weight: 300;
-}
-
-.last {
-	text-align: center;
 }
 
 nav {
@@ -260,20 +114,6 @@ h2 {
 	list-style-type: none;
 	padding-top: 3px;
 	padding-left: 15px;
-}
-
-.order-counter {
-	padding: 10px;
-	width: 350px;
-	float: right;
-}
-
-.pizzaoven {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 10px;
-	width: 350px;
 }
 
 .carousel {
